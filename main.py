@@ -9,5 +9,5 @@ def club_finder(e):
     club_members = ["mj arbison", "basty uclaray", "cody deocampo", "bonnie nubla", "alexa agnote", "aisha padua"]
     club_checker = name in club_members
 
-    display_message = (f'Sorry, there is no {name} in ict/basketball club :( join next year', f'{name} is in the ict/basketball club, congrats :)')
+    display_message = (f'Sorry, there is no {name} in pigeon club :( join next year', f'{name} is in the pigeon club, congrats :)')
     display(display_message[club_checker], target='result')
