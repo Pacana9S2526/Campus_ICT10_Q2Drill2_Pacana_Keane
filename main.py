@@ -1,4 +1,4 @@
-# Finding club names
+# Finding club members
 from pyscript import display, document
 
 def club_finder(e):
